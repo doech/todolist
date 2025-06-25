@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ViewController {
     @GetMapping("/dashboard")
     public String dashboard() {
-        return "dashboard"; 
+        return "index"; 
     }
 }
